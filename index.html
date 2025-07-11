@@ -1,1 +1,87 @@
-Em breve...
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Terena Antiga – Memórias em Imagens</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <h1>Terena Antiga</h1>
+    <p>Memórias em Imagens</p>
+    <nav>
+      <a href="#gentes">Gentes da Nossa Terra</a>
+      <a href="#anos40">Anos 40</a>
+      <a href="#anos50">Anos 50</a>
+      <a href="#anos60">Anos 60</a>
+      <a href="#anos70">Anos 70</a>
+      <a href="#anos80">Anos 80</a>
+      <a href="#anos90">Anos 90</a>
+      <a href="#videos">Vídeos</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Seções -->
+    <section id="gentes">
+      <h2>Gentes da Nossa Terra</h2>
+      <p>Rostos que marcaram Terena e fazem parte da nossa história.</p>
+      <div class="galeria">
+        <figure>
+          <img src="imagens/gentes/jazz_boa_nova_terenense_anos5060.jpg" alt="Banda Jazz Boa Nova Terenense - Anos 50/60" class="clickable-image" data-large="imagens/gentes/jazz_boa_nova_terenense_anos5060.jpg"  style="cursor:pointer;" />
+          <figcaption>A "Banda" Jazz Boa Nova Terenense - Anos 50/60 <br> <br> Da Esquerda para a Direita: Mestre Alexandre, Feliz Mira, António Galrito, Joaquim Garçoa, Joaquim António Saúde, Mestre José Brito e Henrique Góis</figcaption>
+        </figure>
+        <figure>
+          <img src="imagens/gentes/grupo_escolar_anos40.jpg" alt="Jovens de Bicicleta" class="clickable-image" data-large="imagens/gentes/grupo_escolar_anos40.jpg"  style="cursor:pointer; width:300px;" />
+          <figcaption>Grupo Escolar - Final do Anos 40</figcaption>
+        </figure>
+        <figure>
+          <img src="imagens/gentes/jovens_de_bicicleta.jpg" alt="Jovens de Bicicleta" class="clickable-image" data-large="imagens/gentes/jovens_de_bicicleta.jpg"  style="cursor:pointer; width:220px;" />
+          <figcaption>Jovens com as suas Bicicletas <br> <br> 
+          José Rosa, Joaquim Pereira, João de Matos e Manuel Mira</figcaption>
+        </figure>
+        <figure>
+          <img src="imagens/gentes/tirita_e_tiluis.jpg" alt="Jovens de Bicicleta" class="clickable-image" data-large="imagens/gentes/tirita_e_tiluis.jpg"  style="cursor:pointer; width:220px;" />
+          <figcaption>Ti Luis Cardoso e Ti Rita Cardoso na Rua Direita - Anos 80</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="anos40">
+      <h2>Anos 40</h2>
+      <div class="galeria">
+        <img src="imagens/anos40/foto1.jpg" alt="Descrição da foto" />
+        <img src="imagens/anos40/foto2.jpg" alt="Outra descrição" />
+      </div>
+    </section>
+
+    <!-- Outras seções similares podem ser adicionadas aqui -->
+    <section id="anos50"><h2>Anos 50</h2><div class="galeria"></div></section>
+    <section id="anos60"><h2>Anos 60</h2><div class="galeria"></div></section>
+    <section id="anos70"><h2>Anos 70</h2><div class="galeria"></div></section>
+    <section id="anos80"><h2>Anos 80</h2><div class="galeria"></div></section>
+    <section id="anos90"><h2>Anos 90</h2><div class="galeria"></div></section>
+
+    <section id="videos">
+      <h2>Vídeos da Memória</h2>
+      <video controls src="videos/video1.mp4"></video>
+      <video controls src="videos/video2.mp4"></video>
+    </section>
+
+    <div id="lightbox">
+      <div class="lightbox-content">
+        <button id="close">Fechar</button>
+        <img id="imgLightbox" src="" alt="" />
+        <p id="caption"></p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>Exposição criada em 2025 | Terena</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
